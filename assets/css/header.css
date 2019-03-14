@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+.header {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  padding-left: 242px;
+  padding-top: 46px;
+  padding-right: 268px;
+}
+
+.header > .title {
+  font-size: 32px;
+  font-weight: bold;
+  float: left;
+}
+
+.header >.navigation {
+  font-size: 16px;
+  float: right;
+}
+
+.navigation >.action {
+  padding-left: 60px;
+}

@@ -21,4 +21,12 @@
 
 .navigation >.action {
   padding-left: 60px;
+  text-decoration: none;
+  color: #31384E;
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: 0.5;
+  filter: blur(1px);
 }

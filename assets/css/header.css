@@ -20,9 +20,11 @@
 }
 
 .navigation >.action {
+  display: inline-block;
+  color: #fff;
   padding-left: 60px;
   text-decoration: none;
-  color: #31384E;
+  position: relative;
   font-weight: bold;
 }
 

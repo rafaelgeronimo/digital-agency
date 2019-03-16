@@ -35,34 +35,45 @@
 #client-logo {  
   left: 244px;
   margin-top: 132px;
-  width: 788px;
-  height: 66px;
+  height: 55px;
 }
 
 .logo {
   float: left;
-  margin-right: 24px;
+  margin-right: 30px;
 }
 
 #client-logo > .logo-discord img {
-  width: 196px;
-  height: 66px;
+  height: 50px;
 }
 
 #client-logo > .logo-groupm img {
-  width: 120px;
   height: 42px;
-  transform: translateY(30%);
 }
 
 #client-logo > .logo-audiomack img {
-  width: 212px;
-  height: 28px;
-  transform: translateY(40%);
+  height: 32px;
 }
 
 #client-logo > .logo-microsoft img {
-  width: 130px;
-  height: 66px;
-  transform: translateY(-10%);
+  height: 32px;
+}
+
+#showcase-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 1vh;
+}
+
+#showcase-background > .bubble {
+  margin-left: -500px;
+  width: 550px;
+}
+
+#showcase-background > .ilustration {
+  margin-top: -620px;
+  margin-left: 160px;
 }

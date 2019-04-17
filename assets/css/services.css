@@ -32,14 +32,56 @@
 }
 
 #services .services {
+  
   display: flex;
   justify-content: space-between;
   margin-top: 86px;
   margin-left: 15%;
+  margin-right: 15%;
 }
 
 .services div {
   width: 448px;
   margin-right: 38px;
-  border: 1px solid #000;
+  box-shadow: 0px 10px 50px rgba(49, 56, 78, 0.102);
+  color: #31384E;
+  text-align: left;
+  border-radius: 10px 20px 10px 40px;
+  transition: 0.5s ease-out;
+}
+
+.services div h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 94px;
+    margin-left: 54px;
+  }
+
+  .services div p {
+    font-size: 18px;
+    margin: 52px 57px 92px 54px;
+  }
+
+  .services div i {
+    margin-top: 86px;
+    margin-left: 88px;
+    font-size: 80px;
+  }
+
+.services .business:hover {
+  color: #fff;
+  background: linear-gradient(138.8deg, #0B42F5 -4.51%, #34E3FF 114.5%);
+  cursor: pointer;  
+}
+
+.services .advance:hover {
+  color: #fff;
+  background: linear-gradient(138.8deg, #0B42F5 -4.51%, #34E3FF 114.5%);
+  cursor: pointer;
+}
+
+.services .content:hover {
+  color: #fff;
+  background: linear-gradient(138.8deg, #0B42F5 -4.51%, #34E3FF 114.5%);
+  cursor: pointer;
 }
